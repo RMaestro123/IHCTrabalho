@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabalhofinal.HelloController">
+   <bottom>
+      <GridPane gridLinesVisible="true" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="33.4" minHeight="10.0" prefHeight="33.4" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="40.40000381469726" minHeight="10.0" prefHeight="28.200000000000003" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button fx:id="second" mnemonicParsing="false" prefHeight="100.0" prefWidth="255.0" style="-fx-background-color: cyan;" text="2nd" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="131.0" style="-fx-background-color: black; -fx-text-fill: white;" text="x⁻¹" GridPane.rowIndex="4" fx:id="xmenosum">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="math" mnemonicParsing="false" prefHeight="53.0" prefWidth="73.0" style="-fx-background-color: black; -fx-text-fill: white;" text="Math" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="7.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="alpha" mnemonicParsing="false" prefHeight="77.0" prefWidth="92.0" style="-fx-background-color: lightgreen;" text="Alpha" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="107.0" style="-fx-background-color: black; -fx-text-fill: white;" text="x²" GridPane.rowIndex="5" fx:id="xqudrado">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="logaritmo" mnemonicParsing="false" prefHeight="53.0" prefWidth="81.0" style="-fx-background-color: black; -fx-text-fill: white;" text="Log" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="logdedez" mnemonicParsing="false" prefHeight="76.0" prefWidth="128.0" style="-fx-background-color: black; -fx-text-fill: white;" text="ln" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cancel" mnemonicParsing="false" prefHeight="90.0" prefWidth="122.0" style="-fx-background-color: black; -fx-text-fill: white;" text="STO&gt;" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="Yigual" mnemonicParsing="false" prefHeight="104.0" prefWidth="166.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="?=">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="window" mnemonicParsing="false" prefHeight="97.0" prefWidth="190.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="WINDOW" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="zoom" mnemonicParsing="false" prefHeight="67.0" prefWidth="141.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="ZOOM" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="trace" mnemonicParsing="false" prefHeight="78.0" prefWidth="171.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="TRACE" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="graph" mnemonicParsing="false" prefHeight="69.0" prefWidth="133.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="GRAPH" GridPane.columnIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="on" mnemonicParsing="false" prefHeight="91.0" prefWidth="140.0" style="-fx-background-color: gray; -fx-text-fill: white;" text="ON" GridPane.columnIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="mode" mnemonicParsing="false" prefHeight="87.0" prefWidth="153.0" text="MODE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="delete" mnemonicParsing="false" prefHeight="62.0" prefWidth="125.0" text="DEL" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="left" mnemonicParsing="false" prefHeight="105.0" prefWidth="71.0" text="&lt;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="up" mnemonicParsing="false" prefHeight="85.0" prefWidth="169.0" text="^" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="right" mnemonicParsing="false" prefHeight="72.0" prefWidth="103.0" text="&gt;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="down" mnemonicParsing="false" prefHeight="85.0" prefWidth="143.0" text="v" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bell MT" size="12.0" />
+               </font></Button>
+            <Button fx:id="var" mnemonicParsing="false" prefHeight="51.0" prefWidth="101.0" text="X,T,Ø.n" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="stat" mnemonicParsing="false" prefHeight="88.0" prefWidth="186.0" text="STAT" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="apps" mnemonicParsing="false" prefHeight="80.0" prefWidth="140.0" text="APPS" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="prog" mnemonicParsing="false" prefHeight="50.0" prefWidth="98.0" text="PRGM" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="vars" mnemonicParsing="false" prefHeight="59.0" prefWidth="104.0" text="VARS" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="seno" mnemonicParsing="false" prefHeight="72.0" prefWidth="116.0" text="SIN" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cosseno" mnemonicParsing="false" prefHeight="54.0" prefWidth="106.0" text="COS" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="tangente" mnemonicParsing="false" prefHeight="68.0" prefWidth="100.0" text="TAN" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="sete" mnemonicParsing="false" prefHeight="74.0" prefWidth="164.0" text="7" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="oito" mnemonicParsing="false" prefHeight="58.0" prefWidth="98.0" text="8" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="nove" mnemonicParsing="false" prefHeight="85.0" prefWidth="123.0" text="9" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="quatro" mnemonicParsing="false" prefHeight="62.0" prefWidth="83.0" text="4" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="um" mnemonicParsing="false" prefHeight="51.0" prefWidth="80.0" text="1" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="zero" mnemonicParsing="false" prefHeight="83.0" prefWidth="120.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cinco" mnemonicParsing="false" prefHeight="45.0" prefWidth="80.0" text="5" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="dois" mnemonicParsing="false" prefHeight="46.0" prefWidth="99.0" text="2" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="ponto" mnemonicParsing="false" prefHeight="50.0" prefWidth="87.0" text="•" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="seis" mnemonicParsing="false" prefHeight="94.0" prefWidth="118.0" text="6" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="tres" mnemonicParsing="false" prefHeight="61.0" prefWidth="81.0" text="3" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="negativo" mnemonicParsing="false" prefHeight="78.0" prefWidth="121.0" text="(-)" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="dividir" mnemonicParsing="false" prefHeight="49.0" prefWidth="86.0" text="/" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="mult" mnemonicParsing="false" prefHeight="54.0" prefWidth="83.0" text="*" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="menos" mnemonicParsing="false" prefHeight="63.0" prefWidth="104.0" text="-" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="somar" mnemonicParsing="false" prefHeight="84.0" prefWidth="120.0" text="+" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="105.0" prefWidth="138.0" text="ENTER" GridPane.columnIndex="5" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="virgula" mnemonicParsing="false" prefHeight="83.0" prefWidth="121.0" text="," GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="89.0" prefWidth="109.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="parfechar" mnemonicParsing="false" prefHeight="70.0" prefWidth="101.0" text=")" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="exponente" mnemonicParsing="false" prefHeight="84.0" prefWidth="140.0" text="EXP(X)" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="parabrir" mnemonicParsing="false" prefHeight="99.0" prefWidth="149.0" text="(" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="senomenusum" mnemonicParsing="false" prefHeight="84.0" prefWidth="146.0" text="SIN⁻¹" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="cossenomenosum" mnemonicParsing="false" prefHeight="54.0" prefWidth="105.0" text="COS⁻¹" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="116.0" text="TAN⁻¹" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="squareroot" mnemonicParsing="false" prefHeight="139.0" prefWidth="278.0" text="SQRT" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="ans" mnemonicParsing="false" prefHeight="58.0" prefWidth="149.0" style="-fx-background-color: black; -fx-text-fill: white;" text="ANS" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </bottom>
+   <top>
+      <Pane prefHeight="39.0" prefWidth="459.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Pane prefHeight="178.0" prefWidth="44.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="178.0" prefWidth="47.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <TextArea fx:id="TXTarea" prefHeight="187.0" prefWidth="368.0" style="-fx-border-color: grey;" text="X = 1  + 2" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
